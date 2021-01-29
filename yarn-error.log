@@ -1,0 +1,34 @@
+Arguments: 
+  /home/jayprecode/.nvm/versions/node/v15.5.1/bin/node /home/jayprecode/.nvm/versions/node/v15.5.1/bin/yarn add gh-pages
+
+PATH: 
+  /home/jayprecode/.nvm/versions/node/v15.5.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/AMD/ATI.ACE/Core-Static:/mnt/c/Users/Jayprecode/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Jayprecode/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jayprecode/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jayprecode/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/Jayprecode/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/WebStorm 2020.3.1/bin:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.5.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ECONNREFUSED 104.16.27.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+
+npm manifest: 
+  {
+    "name": "github-locator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:Jayprecode/github-locator.git",
+    "author": "Jayprecode <jayprecode@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

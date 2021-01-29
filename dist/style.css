@@ -143,10 +143,10 @@ footer {
     font-size: .930125rem;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     position: relative;
-    padding: .75rem 1.25rem;
+    padding: .50rem 1rem;
     border: 0 solid transparent;
     border-radius: .25rem;
-    width: 40%;
+    width: 35%;
     text-align: center;
 }
 .alert-danger {

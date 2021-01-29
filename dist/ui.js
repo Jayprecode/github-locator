@@ -79,12 +79,12 @@ class UI {
 		//Add text
 		div.appendChild(document.createTextNode(message));
 		//Get Parent
-		const container = document.querySelector(".search");
+		const s = document.querySelector(".search");
 		//Get search box
-		const search = document.querySelector(".space");
+		const spce = document.querySelector(".space");
 		//Insert alert
-		container.insertBefore(div, search);
-		// //Timeout after 3 sec
+	    s.insertBefore(div, spce);
+		//Timeout after 3 sec
 		// setTimeout(() => {
 		//     this.clearAlert();
 		// }, 3000);
