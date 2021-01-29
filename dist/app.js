@@ -1,10 +1,10 @@
-let sU = document.getElementById("searchUser");
-
 //Init Github
 const github = new Github();
 
 //Init UI
 const ui = new UI();
+
+let sU = document.getElementById("searchUser");
 
 //Search Input eventListener
 sU.addEventListener("keyup", (e) => {

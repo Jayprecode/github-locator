@@ -7,11 +7,11 @@ class UI {
 		this.profile.innerHTML = `
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-                        <img class="img-fluid mb-2" src="${user.avatar_url}">
-                        <a href="${user.html_url}" target="_blank" class="btn btn_blue">View Profile</a>
+                    <div class="p__pics">
+                        <img src="${user.avatar_url}">
+                        <a href="${user.html_url}" target="_blank" class="btn btn_green">View Profile</a>
                     </div>
-                    <div class="col-md-9">
+                    <div class="p__details">
                         <span class="badge">
                             Public Repos: ${user.public_repos}
                         </span>
@@ -34,7 +34,7 @@ class UI {
                     </div>
                 </div>
             </div>
-            <h3 class = "page-heading mb-3">Latest Repos</h3>
+            <h3 class = "repo__page-heading">Latest Repos</h3>
             <div id="repos"></div>
         `;
 	}
@@ -46,10 +46,10 @@ class UI {
 			output += `
                 <div class="repo_container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="half1">
                             <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="half2">
                             <span class="badge">
                                 Stars: ${repo.stargazers_count}
                             </span>
@@ -79,9 +79,9 @@ class UI {
 		//Add text
 		div.appendChild(document.createTextNode(message));
 		//Get Parent
-		const container = document.querySelector(".searchContainer");
+		const container = document.querySelector(".search");
 		//Get search box
-		const search = document.querySelector(".search");
+		const search = document.querySelector(".space");
 		//Insert alert
 		container.insertBefore(div, search);
 		// //Timeout after 3 sec
