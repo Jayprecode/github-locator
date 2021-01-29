@@ -1,0 +1,8 @@
+{
+  "name": "github-locator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Jayprecode/github-locator.git",
+  "author": "Jayprecode <jayprecode@gmail.com>",
+  "license": "MIT"
+}
